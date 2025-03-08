@@ -17,4 +17,6 @@ jobs:
         run: echo "Hello, World! This is a GitHub Actions test."
 
       - name: Print Current Date and Time
-        run: echo "The current date and time is: $(date)"
+        run: |
+          echo "The current date and time is:"
+          date
