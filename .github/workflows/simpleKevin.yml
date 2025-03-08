@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  hello-world-job:
+  job:
     runs-on: ubuntu-latest
 
     steps:
